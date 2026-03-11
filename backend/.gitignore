@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environments
+.env
+env/
+venv/
+/htmlcov/
+
+# Editor/IDE-specific files
+.idea/  # For PyCharm/IntelliJ
+.vscode/ # For VS Code
+.directory # For KDE
+.DS_Store # For macOS
+
+# Database
+*.sqlite
+*.sqlite3
+test_db.db # Common test database name
+
+# FastAPI Cloud deployment ignored files
+.fastapicloudignore
+
+# OS-specific files
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
